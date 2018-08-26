@@ -1,0 +1,4 @@
+#Sun Aug 26 08:12:45 BRT 2018
+base.0=/Users/vcg/Documents/4tuna/devel/DonaCeliaApp/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Users/vcg/Documents/4tuna/devel/DonaCeliaApp/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

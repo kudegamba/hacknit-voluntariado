@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+        <title>Fale com a Célia</title>
+    
+        <!--Include JQM and JQ.-->
+        <script src="cordova.js"></script>	
+        <script src="js/fastclick.js"></script>
+        
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
+        
+</head>
+<body>
+    <div class="header">
+        <p class="font" style="margin-right: 50px; text-align: center; margin-top: 10px"><a class="back" onclick="location.href='index.html'"><img src="imgs/back.png"></a><img class="title" src="imgs/DonaCelia_branco_Cruz.png"></p>        
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="lista">
+        <li>
+            <div>
+                <div class="textSnD">
+                    <p style="margin-left: 7.5%; font-size: 11px">DONA CÉLIA, é verdade que adulto não precisa mais tomar vacina né?!<img class="chatIc2" src="imgs/boneco_msg.png"></p>
+                </div>
+                <div class="textRC">
+                    
+                    <p style="margin-left: 7.5%; font-size: 11px"><img class="chatIc1" src="imgs/dona_celia_cabeca.png">Oxi, mas é claro que precisa! Ou depois que fica adulto a gente vira super herói e não pega mais doença?</p>
+                </div>
+                <div class="textSnD">
+                    <p style="margin-left: 7.5%; font-size: 11px">Mas aqui, eu recebi um zap dizendo que vacina causa autismo! É verdade?<img class="chatIc2" src="imgs/boneco_msg.png"></p>
+                </div>
+                <div class="textRC">
+                    <p style="margin-left: 7.5%; font-size: 11px"><img class="chatIc1" src="imgs/dona_celia_cabeca.png">Aff! Deixe de ser besta e para de acreditar em corrente! Autismo é um transtorno nervoso que já nasce com a criança!</p>
+                </div>
+                <div class="textSnD">
+                    <p style="margin-left: 7.5%; font-size: 11px">Mas DONA CÉLIA, então é verdade que vacina mata?<img class="chatIc2" src="imgs/boneco_msg.png"></p>
+                </div>
+                <div class="textRC">
+                    <p style="margin-left: 7.5%; font-size: 11px"><img class="chatIc1" src="imgs/dona_celia_cabeca.png">Olha minha filha, vacina eu nunca vi matar não, viu? Mas se eu fosse você tomava cuidado com fake news!</p>
+                </div>
+            </div>
+        </li>
+    </div>
+    <div class="app-body">
+        <input style="color: rgb(153, 153, 153)" class="msgInput" value="Entre com o texto">
+    </div>
+    <div class="footer">            
+        <!--<a class="back" onclick="location.href='index.html'">Voltar</a>-->        
+    </div>
+</body>
+<style>
+
+    .chatIc1 {
+        margin-right: 5px;
+        width: 12%;
+        height: 12%;
+    }
+    .chatIc2 {
+        float: right;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        width: 12%;
+        height: 12%;
+    }
+
+    .lista {
+        word-break: normal;
+        font-family: arial;
+        margin-bottom: 43.5em;
+    }
+
+    .textSnD {
+        margin-right: 7.5px;
+        margin-bottom: 7px;
+        width: 50%;
+        float: right;
+        border: 1px solid rgb(134, 160, 233);
+        background-color: white;
+    }
+
+    .textRC {
+        margin-left: 7.5px;
+        margin-bottom: 7px;
+        width: 60%;
+        float: left;
+        border: 1px solid rgb(134, 160, 233);
+        background-color: white;
+    }
+
+    .msgArea1 {
+        text-align: left;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(192, 192, 250);
+    }
+    .msgArea2 {
+        text-align: right;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(192, 192, 250);
+    }
+
+    .msgInput {
+        left: 10;
+        bottom: 10;
+        border-width: 1px 0;
+        border-style: solid;
+        background-color: rgb(37, 119, 188);
+        color: rgb(37, 119, 188);
+ 
+    }
+
+    .back {
+        font-size: 22px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .app-body {
+        background-color: white;
+        width: 100%;
+        height: 22%;
+        left: 0;
+        bottom: 0;
+        border-width: 1px 0;
+        border-style: solid;
+        position: fixed;
+    }
+
+    .crtIcon {
+        background-color: white;
+        border-bottom: 0px solid rgb(255, 0, 0);
+        margin-top: 5px;
+        margin-left: 40%;
+        width: 19.5%;
+        height: 80%;
+    }
+
+    .title {
+        margin-right: 2px;
+        width: 51%;
+        height: 51%;
+    }
+
+    .footer {
+        left: 0;
+        bottom: 0;
+        border-width: 1px 0;
+        border-style: solid;
+        position: fixed;
+        background-color: rgb(37, 119, 188);
+        color: rgb(37, 119, 188);
+        width: 100%;
+        height: 3em; 
+    }
+
+    .btn-postoV {
+        background-color: white;
+        border-bottom: 0px solid rgb(255, 0, 0);
+        margin-bottom: 5em;
+        margin-left: 16%;
+    }
+
+    .header {
+        width: 100%;
+        height: 3.4em;
+        background-color: rgb(37, 119, 188);
+        position: fixed;
+    }
+
+    .icon {
+        margin-top: 0.6em;
+        margin-left: 0.75em;
+        background-color: rgb(37, 119, 188);
+        border-bottom: 0px solid rgb(255, 0, 0);
+        position: fixed;
+
+    }
+
+    .font {
+        font-family: arial;
+        color: white;
+        font-size: 24px;
+    }
+
+</style>
+</html>
